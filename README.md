@@ -17,8 +17,6 @@ Thoses distance are admissible because the estimate distance are always under th
 ```
 cargo run -- 2 ex.txt y
 ```
-## description 
-
 --------------------------------------------------------------------
 cargo will run the resolution of the table ex.txt with the euclidien distance as the heuristic function,
 and time out if it takes more than 10 seconds
