@@ -1,0 +1,58 @@
+Exemple of solution:
+
+time_out: true
+|0 2 3|
+|1 4 5|
+|8 7 6|
+
+(0, 0)
+[false, false, false, false]
+---------
+distance 8
+costsofar 0
+sum 0
+list []
+---------
+--------START--------
+|0 2 3|
+|1 4 5|
+|8 7 6|
+
+---MOVE 1 down---
+
+|1 2 3|
+|0 4 5|
+|8 7 6|
+
+---MOVE 2 down---
+
+|1 2 3|
+|8 4 5|
+|0 7 6|
+
+---MOVE 3 right---
+
+|1 2 3|
+|8 4 5|
+|7 0 6|
+
+---MOVE 4 right---
+
+|1 2 3|
+|8 4 5|
+|7 6 0|
+
+---MOVE 5 up---
+
+|1 2 3|
+|8 4 0|
+|7 6 5|
+
+---MOVE 6 left---
+
+|1 2 3|
+|8 0 4|
+|7 6 5|
+
+time : 0 distance_min 0 open_list 6 node_visited 7
+Grid Solve
