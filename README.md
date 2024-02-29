@@ -10,8 +10,9 @@ cd scripts
 # install_cargo_python2
 ```
 ## Usage 
-
+```
 cargo run -- [distance_choosen: 0-manhattan 1-euclidien 2-tiles out of place] [path of the file] [set time out: y-yes, n-no]
+```
 Thoses distance are admissible because the estimate distance are always under the true cheapest cost from n to goal
 
 ## exemple 
