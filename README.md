@@ -1,10 +1,12 @@
+## ABOUT THE PROJECT
+
 Welcome to my n_puzzle resolution program
 A project for 42 school 
-
+```
 this program was written entirely in rust. To use it you need to run the shell script included in the "scripts" folder to install cargo, and because we need python2 for running the generator of grid, to install python2 as well:
 # chmod a+x install_cargo_python2 
 # ./install_cargo_python2
-
+```
 usage: cargo run -- [distance_choosen: 0-manhattan 1-euclidien 2-tiles out of place] [path of the file] [set time out: y-yes, n-no]
 Thoses distance are admissible because the estimate distance are always under the true cheapest cost from n to goal
 
