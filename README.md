@@ -6,7 +6,7 @@ A project for 42 school
 this program was written entirely in rust. To use it you need to run the shell script included in the "scripts" folder to install cargo, and because we need python2 for running the generator of grid, to install python2 as well:
 ```
 # chmod a+x install_cargo_python2 
-# ./install_cargo_python2
+# ./scripts/install_cargo_python2
 ```
 ## Usage 
 
